@@ -284,14 +284,14 @@ void varToBuf(CAN_msg_t &msg, const CAL::data &CANdata, int &var){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        msg.data[CANdata.start_idx] = (uint8_t)(var/CANdata.multiplier);
+        msg.data[CANdata.start_idx] = (uint8_t)(var*CANdata.divisor/CANdata.multiplier);
         break;
     case CAL::DataType::Float:
-        msg.data[CANdata.start_idx] = (float)(var/CANdata.multiplier);
+        msg.data[CANdata.start_idx] = (float)(var*CANdata.divisor/CANdata.multiplier);
         break;
     case CAL::DataType::int16:
-        msg.data[CANdata.start_idx + 1] = ((int)(var/CANdata.multiplier) >> 8);
-        msg.data[CANdata.start_idx] = ((int)(var/CANdata.multiplier));
+        msg.data[CANdata.start_idx + 1] = ((int)(var*CANdata.divisor/CANdata.multiplier) >> 8);
+        msg.data[CANdata.start_idx] = ((int)(var*CANdata.divisor/CANdata.multiplier));
         break;
     case CAL::DataType::boolean:
         if(var == 1) msg.data[CANdata.start_idx] |= CANdata.bitmask;
@@ -306,14 +306,14 @@ void varToBuf(CAN_msg_t &msg, const CAL::data &CANdata, bool &var){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        msg.data[CANdata.start_idx] = (uint8_t)(var/CANdata.multiplier);
+        msg.data[CANdata.start_idx] = (uint8_t)(var*CANdata.divisor/CANdata.multiplier);
         break;
     case CAL::DataType::Float:
-        msg.data[CANdata.start_idx] = (float)(var/CANdata.multiplier);
+        msg.data[CANdata.start_idx] = (float)(var*CANdata.divisor/CANdata.multiplier);
         break;
     case CAL::DataType::int16:
-        msg.data[CANdata.start_idx + 1] = ((int)(var/CANdata.multiplier) >> 8);
-        msg.data[CANdata.start_idx] = ((int)(var/CANdata.multiplier));
+        msg.data[CANdata.start_idx + 1] = ((int)(var*CANdata.divisor/CANdata.multiplier) >> 8);
+        msg.data[CANdata.start_idx] = ((int)(var*CANdata.divisor/CANdata.multiplier));
         break;
     case CAL::DataType::boolean:
         if(var == true) msg.data[CANdata.start_idx] |= CANdata.bitmask;
@@ -328,14 +328,14 @@ void varToBuf(CAN_msg_t &msg, const CAL::data &CANdata, float &var){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        msg.data[CANdata.start_idx] = (int)(var/CANdata.multiplier);
+        msg.data[CANdata.start_idx] = (int)(var*CANdata.divisor/CANdata.multiplier);
         break;
     case CAL::DataType::Float:
-        msg.data[CANdata.start_idx] = (float)(var/CANdata.multiplier);
+        msg.data[CANdata.start_idx] = (float)(var*CANdata.divisor/CANdata.multiplier);
         break;
     case CAL::DataType::int16:
-        msg.data[CANdata.start_idx + 1] = ((int)(var/CANdata.multiplier) >> 8);
-        msg.data[CANdata.start_idx] = ((int)(var/CANdata.multiplier));
+        msg.data[CANdata.start_idx + 1] = ((int)(var*CANdata.divisor/CANdata.multiplier) >> 8);
+        msg.data[CANdata.start_idx] = ((int)(var*CANdata.divisor/CANdata.multiplier));
         break;
     case CAL::DataType::boolean:
         if(var == 1) msg.data[CANdata.start_idx] |= CANdata.bitmask;
@@ -585,13 +585,13 @@ void bufToVar(CAN_msg_t &msg, const CAL::data &CANdata, int &data){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier;
+        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::int16:
-        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier;
+        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::Float:
-        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier;
+        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::boolean:
         data = (msg.data[CANdata.start_idx] & CANdata.bitmask) > 0;
@@ -605,13 +605,13 @@ void bufToVar(CAN_msg_t &msg, const CAL::data &CANdata, float &data){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier;
+        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::int16:
-        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier;
+        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::Float:
-        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier;
+        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::boolean:
         data = (msg.data[CANdata.start_idx] & CANdata.bitmask) > 0;
@@ -625,13 +625,13 @@ void bufToVar(CAN_msg_t &msg, const CAL::data &CANdata, bool &data){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier;
+        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::int16:
-        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier;
+        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::Float:
-        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier;
+        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::boolean:
         data = (msg.data[CANdata.start_idx] & CANdata.bitmask) > 0;
@@ -645,13 +645,13 @@ void bufToVar(CAN_msg_t &msg, const CAL::data &CANdata, uint8_t &data){
     switch (CANdata.dataType)
     {
     case CAL::DataType::uint8:
-        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier;
+        data = (msg.data[CANdata.start_idx] & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::int16:
-        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier;
+        data = ((((int16_t)msg.data[CANdata.start_idx + 1] << 8) | msg.data[CANdata.start_idx]) & CANdata.bitmask)*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::Float:
-        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier;
+        data = ((float)(msg.data[CANdata.start_idx] & CANdata.bitmask))*CANdata.multiplier/CANdata.divisor;
         break;
     case CAL::DataType::boolean:
         data = (msg.data[CANdata.start_idx] & CANdata.bitmask) > 0;
