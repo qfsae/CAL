@@ -731,40 +731,40 @@ int CAL::CAL::returnVar(const data &CANdata){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
@@ -837,40 +837,40 @@ float CAL::CAL::returnVar_f(const data &CANdata){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
@@ -943,40 +943,40 @@ CAL::PDMOutputStatus CAL::CAL::returnVar_os(const data &CANdata){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
@@ -1048,40 +1048,40 @@ int CAL::CAL::returnVar(const data &CANdata, int &data){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
@@ -1153,40 +1153,40 @@ int CAL::CAL::returnVar(const data &CANdata, uint8_t &data){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
@@ -1257,40 +1257,40 @@ int CAL::CAL::returnVar(const data &CANdata, float &data){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
         break;
     default:
@@ -1363,40 +1363,40 @@ int CAL::CAL::returnVar(const data &CANdata, bool &data){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
@@ -1468,40 +1468,40 @@ int CAL::CAL::returnVar(const data &CANdata, PDMOutputStatus &data){
         bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_ID::Logger_1:
-        bufToVar(Logger1, CANdata, value);
+        bufToVar(Logger1, CANdata, data);
         break;
     case MOTEC_ID::Logger_2:
-        bufToVar(Logger2, CANdata, value);
+        bufToVar(Logger2, CANdata, data);
         break;
     case MOTEC_ID::Logger_3:
-        bufToVar(Logger3, CANdata, value);
+        bufToVar(Logger3, CANdata, data);
         break;
     case MOTEC_ID::Logger_5:
-        bufToVar(Logger5, CANdata, value);
+        bufToVar(Logger5, CANdata, data);
         break;
     case MOTEC_ID::Logger_6:
-        bufToVar(Logger6, CANdata, value);
+        bufToVar(Logger6, CANdata, data);
         break;
     case MOTEC_ID::Logger_9:
-        bufToVar(Logger9, CANdata, value);
+        bufToVar(Logger9, CANdata, data);
         break;
     case MOTEC_ID::Logger_10:
-        bufToVar(Logger10, CANdata, value);
+        bufToVar(Logger10, CANdata, data);
         break;
     case MOTEC_ID::Logger_11:
-        bufToVar(Logger11, CANdata, value);
+        bufToVar(Logger11, CANdata, data);
         break;
     case MOTEC_ID::Logger_13:
-        bufToVar(Logger13, CANdata, value);
+        bufToVar(Logger13, CANdata, data);
         break;
     case MOTEC_ID::Logger_14:
-        bufToVar(Logger14, CANdata, value);
+        bufToVar(Logger14, CANdata, data);
         break;
     case MOTEC_ID::Logger_15:
-        bufToVar(Logger15, CANdata, value);
+        bufToVar(Logger15, CANdata, data);
         break;
     case MOTEC_ID::Logger_16:
-        bufToVar(Logger16, CANdata, value);
+        bufToVar(Logger16, CANdata, data);
         break;
     default:
         break;
