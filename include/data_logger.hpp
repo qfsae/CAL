@@ -9,6 +9,8 @@
  * @copyright Copyright (c) 2023
  * 
  */
+//#include "../QFSAE_Library_Dependencies/include/qfsae_structs.hpp"
+
 #include "qfsae_structs.hpp"
 
 namespace CAL
@@ -20,16 +22,17 @@ namespace CAL
     namespace DATA_ECU_LOGGER
     {
         /**
-         * @brief Starter Relay Status
-         * Contained as a PDMStatus,
-         * Accessed at: ID 0x7F0 | Byte 0
+         * @brief Engine Speed
+         * Contained as a 16 Bit Integer,
+         * Accessed at: ID 0x0640 | Byte 0
          */
-        constexpr data StarterStatus = {
-            MOTEC_ID::PDM_1,
+        constexpr data EngineSpeed = {
+            MOTEC_ID::Logger_1,
             0,
-            0xFF,
-            0,
-            DataType::PDMStatus
+            0xFFFF,
+            1,
+            6,
+            DataType::int16
         };
 
     } // namespace DATA_ECU_LOGGER

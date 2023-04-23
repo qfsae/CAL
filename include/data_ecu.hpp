@@ -29,6 +29,7 @@ namespace CAL{
             0,
             0xFF,
             100,
+            1,
             DataType::uint8
         };
 
@@ -41,6 +42,7 @@ namespace CAL{
             MOTEC_ID::ECU_1,
             1,
             0xFF,
+            1,
             1,
             DataType::uint8
         };
@@ -55,6 +57,7 @@ namespace CAL{
             2,
             0xFF,
             1,
+            1,
             DataType::uint8
         };
 
@@ -67,6 +70,7 @@ namespace CAL{
             MOTEC_ID::ECU_1,
             3,
             0xFF,
+            1,
             1,
             DataType::uint8
         };
@@ -81,6 +85,7 @@ namespace CAL{
             4,
             0xFF,
             1,
+            1,
             DataType::uint8
         };
 
@@ -93,6 +98,7 @@ namespace CAL{
             MOTEC_ID::ECU_1,
             5,
             0xFF,
+            1,
             1,
             DataType::uint8
         };
@@ -107,6 +113,7 @@ namespace CAL{
             6,
             0xFF,
             1,
+            1,
             DataType::uint8
         };
 
@@ -119,6 +126,7 @@ namespace CAL{
             MOTEC_ID::ECU_1,
             7,
             0xFF,
+            1,
             1,
             DataType::uint8
         };
@@ -133,6 +141,7 @@ namespace CAL{
             0,
             0xFF,
             1,
+            1,
             DataType::uint8
         };
 
@@ -145,6 +154,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             2,
             0xFF,
+            1,
             1,
             DataType::int16
         };
@@ -159,6 +169,7 @@ namespace CAL{
             4,
             0x80,
             1,
+            1,
             DataType::boolean
         };
 
@@ -171,6 +182,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             4,
             0x40,
+            1,
             1,
             DataType::boolean
         };
@@ -185,6 +197,7 @@ namespace CAL{
             4,
             0x20,
             1,
+            1,
             DataType::boolean
         };
 
@@ -197,6 +210,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             4,
             0x10,
+            1,
             1,
             DataType::boolean
         };
@@ -211,6 +225,7 @@ namespace CAL{
             4,
             0x08,
             1,
+            1,
             DataType::boolean
         };
 
@@ -223,6 +238,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             4,
             0x04,
+            1,
             1,
             DataType::boolean
         };
@@ -237,6 +253,7 @@ namespace CAL{
             4,
             0x02,
             1,
+            1,
             DataType::boolean
         };
 
@@ -249,6 +266,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             4,
             0x01,
+            1,
             1,
             DataType::boolean
         };
@@ -263,6 +281,7 @@ namespace CAL{
             5,
             0x80,
             1,
+            1,
             DataType::boolean
         };
 
@@ -275,6 +294,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             5,
             0x40,
+            1,
             1,
             DataType::boolean
         };
@@ -289,6 +309,7 @@ namespace CAL{
             6,
             0xFF,
             1,
+            1,
             DataType::uint8
         };
 
@@ -301,6 +322,7 @@ namespace CAL{
             MOTEC_ID::ECU_2,
             7,
             0xFF,
+            1,
             1,
             DataType::uint8
         };

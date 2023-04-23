@@ -32,6 +32,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -44,6 +45,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -56,6 +58,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -68,6 +71,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -84,6 +88,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -96,6 +101,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -108,6 +114,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -120,6 +127,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -136,6 +144,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -148,6 +157,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -160,6 +170,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -172,6 +183,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -188,6 +200,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -200,6 +213,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -212,6 +226,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -224,6 +239,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -240,6 +256,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -252,6 +269,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -264,6 +282,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -276,6 +295,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -292,6 +312,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -304,6 +325,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -316,6 +338,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -328,6 +351,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -344,6 +368,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -356,6 +381,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -368,6 +394,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -380,6 +407,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -396,6 +424,7 @@ namespace CAL{
             0,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -408,6 +437,7 @@ namespace CAL{
             2,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -420,6 +450,7 @@ namespace CAL{
             4,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 
@@ -432,6 +463,7 @@ namespace CAL{
             6,
             0xFF,
             1000,
+            1,
             DataType::int16
         };
 

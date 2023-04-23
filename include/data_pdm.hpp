@@ -10,6 +10,8 @@
  * 
  */
 #include "qfsae_structs.hpp"
+//#include "../QFSAE_Library_Dependencies/include/qfsae_structs.hpp"
+
 
 namespace CAL
 {
@@ -29,6 +31,7 @@ namespace CAL
             0,
             0xFF,
             0,
+            0,
             DataType::PDMStatus
         };
 
@@ -42,6 +45,7 @@ namespace CAL
             1,
             0xFF,
             0.1216,
+            1,
             DataType::Float
         };
 
@@ -55,6 +59,7 @@ namespace CAL
             2,
             0xFF,
             0.5,
+            1,
             DataType::Float
         };
 
@@ -68,6 +73,7 @@ namespace CAL
             3,
             0xFF,
             0.2,
+            1,
             DataType::Float
         };
 
@@ -80,6 +86,7 @@ namespace CAL
             MOTEC_ID::PDM_1,
             4,
             0xFF,
+            0,
             0,
             DataType::PDMStatus
         };
@@ -94,6 +101,7 @@ namespace CAL
             5,
             0xFF,
             0.2,
+            1,
             DataType::Float
         };
 
@@ -108,6 +116,7 @@ namespace CAL
             6,
             0xFF,
             0.2,
+            1,
             DataType::Float
         };
 
@@ -121,6 +130,7 @@ namespace CAL
             7,
             0xFF,
             0.2,
+            1,
             DataType::Float
         };
 
@@ -133,6 +143,7 @@ namespace CAL
             MOTEC_ID::PDM_2,
             1,
             0xFF,
+            0,
             0,
             DataType::PDMStatus
         };
@@ -147,6 +158,7 @@ namespace CAL
             2,
             0xFF,
             0,
+            0,
             DataType::PDMStatus
         };
 
@@ -159,6 +171,7 @@ namespace CAL
             MOTEC_ID::PDM_2,
             3,
             0xFF,
+            0,
             0,
             DataType::PDMStatus
         };
@@ -173,6 +186,7 @@ namespace CAL
             4,
             0xFF,
             0,
+            0,
             DataType::PDMStatus
         };
 
@@ -186,6 +200,7 @@ namespace CAL
             5,
             0xFF,
             0,
+            0,
             DataType::PDMStatus
         };
 
@@ -198,6 +213,7 @@ namespace CAL
             MOTEC_ID::PDM_2,
             6,
             0xFF,
+            0,
             0,
             DataType::PDMStatus
         };
