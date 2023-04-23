@@ -13,6 +13,7 @@
 #include "data_ecu.hpp"
 #include "data_pdm.hpp"
 #include "data_ecu_recv.hpp"
+#include "data_logger.hpp"
 
 // Encase entire library within CAL namespace
 namespace CAL {
@@ -36,6 +37,18 @@ namespace CAL {
         CAN_msg_t ECU_CAN5;
         CAN_msg_t ECU_CAN6;
         CAN_msg_t ECU_CAN7;
+        CAN_msg_t Logger1;
+        CAN_msg_t Logger2;
+        CAN_msg_t Logger3;
+        CAN_msg_t Logger5;
+        CAN_msg_t Logger6;
+        CAN_msg_t Logger9;
+        CAN_msg_t Logger10;
+        CAN_msg_t Logger11;
+        CAN_msg_t Logger13;
+        CAN_msg_t Logger14;
+        CAN_msg_t Logger15;
+        CAN_msg_t Logger16;
     public:
     /**
         * @brief Construct a new CAL object - Acts as storage for data
