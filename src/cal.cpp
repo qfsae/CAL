@@ -812,30 +812,6 @@ float CAL::CAL::returnVar_f(const data &CANdata){
     case MOTEC_RECV_ID::ECU_CAN7:
         bufToVar(ECU_CAN7, CANdata, data);
         break;
-    case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
-        break;
     case MOTEC_ID::Logger_1:
         bufToVar(Logger1, CANdata, data);
         break;
@@ -893,30 +869,6 @@ CAL::PDMOutputStatus CAL::CAL::returnVar_os(const data &CANdata){
         break;
     case MOTEC_ID::PDM_2:
         bufToVar(pdm2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_RECV_ID::ECU_CAN0:
         bufToVar(ECU_CAN0, CANdata, data);
@@ -1023,30 +975,6 @@ int CAL::CAL::returnVar(const data &CANdata, int &data){
     case MOTEC_RECV_ID::ECU_CAN7:
         bufToVar(ECU_CAN7, CANdata, data);
         break;
-    case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
-        break;
     case MOTEC_ID::Logger_1:
         bufToVar(Logger1, CANdata, data);
         break;
@@ -1103,30 +1031,6 @@ int CAL::CAL::returnVar(const data &CANdata, uint8_t &data){
         break;
     case MOTEC_ID::PDM_2:
         bufToVar(pdm2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
         break;
     case MOTEC_RECV_ID::ECU_CAN0:
         bufToVar(ECU_CAN0, CANdata, data);
@@ -1209,29 +1113,6 @@ int CAL::CAL::returnVar(const data &CANdata, float &data){
     case MOTEC_ID::PDM_2:
         bufToVar(pdm2, CANdata, data);
         break;
-    case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
     case MOTEC_RECV_ID::ECU_CAN0:
         bufToVar(ECU_CAN0, CANdata, data);
         break;
@@ -1338,30 +1219,6 @@ int CAL::CAL::returnVar(const data &CANdata, bool &data){
     case MOTEC_RECV_ID::ECU_CAN7:
         bufToVar(ECU_CAN7, CANdata, data);
         break;
-    case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
-        break;
     case MOTEC_ID::Logger_1:
         bufToVar(Logger1, CANdata, data);
         break;
@@ -1420,30 +1277,6 @@ int CAL::CAL::returnVar(const data &CANdata, PDMOutputStatus &data){
         bufToVar(pdm2, CANdata, data);
         break;
     case MOTEC_RECV_ID::ECU_CAN0:
-        bufToVar(ECU_CAN0, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN1:
-        bufToVar(ECU_CAN1, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN2:
-        bufToVar(ECU_CAN2, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN3:
-        bufToVar(ECU_CAN3, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN4:
-        bufToVar(ECU_CAN4, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN5:
-        bufToVar(ECU_CAN5, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN6:
-        bufToVar(ECU_CAN6, CANdata, data);
-        break;
-    case MOTEC_RECV_ID::ECU_CAN7:
-        bufToVar(ECU_CAN7, CANdata, data);
-        break;
-        case MOTEC_RECV_ID::ECU_CAN0:
         bufToVar(ECU_CAN0, CANdata, data);
         break;
     case MOTEC_RECV_ID::ECU_CAN1:
