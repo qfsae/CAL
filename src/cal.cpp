@@ -409,9 +409,6 @@ void CAL::CAL::updateVar(const data &CANdata, int value){
     case MOTEC_ID::Logger_11:
         varToBuf(Logger11, CANdata, value);
         break;
-    case MOTEC_ID::Logger_12:
-        varToBuf(Logger12, CANdata, value);
-        break;
     case MOTEC_ID::Logger_13:
         varToBuf(Logger13, CANdata, value);
         break;
@@ -490,9 +487,6 @@ void CAL::CAL::updateVar(const data &CANdata, float value){
     case MOTEC_ID::Logger_11:
         varToBuf(Logger11, CANdata, value);
         break;
-    case MOTEC_ID::Logger_12:
-        varToBuf(Logger12, CANdata, value);
-        break;
     case MOTEC_ID::Logger_13:
         varToBuf(Logger13, CANdata, value);
         break;
@@ -569,9 +563,6 @@ void CAL::CAL::updateVar(const data &CANdata, bool value){
         break;
     case MOTEC_ID::Logger_11:
         varToBuf(Logger11, CANdata, value);
-        break;
-    case MOTEC_ID::Logger_12:
-        varToBuf(Logger12, CANdata, value);
         break;
     case MOTEC_ID::Logger_13:
         varToBuf(Logger13, CANdata, value);
@@ -763,9 +754,6 @@ int CAL::CAL::returnVar(const data &CANdata){
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
         break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
-        break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
         break;
@@ -871,9 +859,6 @@ float CAL::CAL::returnVar_f(const data &CANdata){
         break;
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
-        break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
         break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
@@ -981,9 +966,6 @@ CAL::PDMOutputStatus CAL::CAL::returnVar_os(const data &CANdata){
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
         break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
-        break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
         break;
@@ -1088,9 +1070,6 @@ int CAL::CAL::returnVar(const data &CANdata, int &data){
         break;
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
-        break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
         break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
@@ -1197,9 +1176,6 @@ int CAL::CAL::returnVar(const data &CANdata, uint8_t &data){
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
         break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
-        break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
         break;
@@ -1303,9 +1279,6 @@ int CAL::CAL::returnVar(const data &CANdata, float &data){
         break;
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
-        break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
         break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
@@ -1413,9 +1386,6 @@ int CAL::CAL::returnVar(const data &CANdata, bool &data){
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
         break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
-        break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
         break;
@@ -1520,9 +1490,6 @@ int CAL::CAL::returnVar(const data &CANdata, PDMOutputStatus &data){
         break;
     case MOTEC_ID::Logger_11:
         bufToVar(Logger11, CANdata, value);
-        break;
-    case MOTEC_ID::Logger_12:
-        bufToVar(Logger12, CANdata, value);
         break;
     case MOTEC_ID::Logger_13:
         bufToVar(Logger13, CANdata, value);
